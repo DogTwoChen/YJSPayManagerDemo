@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181C8A5C1E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemo" */;
 			buildPhases = (
-				35C880ECE183FEB25264A9DC /* 📦 Check Pods Manifest.lock */,
+				35C880ECE183FEB25264A9DC /* [CP] Check Pods Manifest.lock */,
 				181C8A2B1E60292600395837 /* Sources */,
 				181C8A2C1E60292600395837 /* Frameworks */,
 				181C8A2D1E60292600395837 /* Resources */,
-				CCD642128A0AA3C43BC7B966 /* 📦 Embed Pods Frameworks */,
-				1A9A54B4CF59D95D7AB34BD9 /* 📦 Copy Pods Resources */,
+				CCD642128A0AA3C43BC7B966 /* [CP] Embed Pods Frameworks */,
+				1A9A54B4CF59D95D7AB34BD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181C8A5F1E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemoTests" */;
 			buildPhases = (
-				4680CE9B52B41A7F5D159E5A /* 📦 Check Pods Manifest.lock */,
+				4680CE9B52B41A7F5D159E5A /* [CP] Check Pods Manifest.lock */,
 				181C8A441E60292700395837 /* Sources */,
 				181C8A451E60292700395837 /* Frameworks */,
 				181C8A461E60292700395837 /* Resources */,
-				62E62E9CB0AC2BE6B3CCB73F /* 📦 Embed Pods Frameworks */,
-				603CD18EAA2AD9FFBCA87286 /* 📦 Copy Pods Resources */,
+				62E62E9CB0AC2BE6B3CCB73F /* [CP] Embed Pods Frameworks */,
+				603CD18EAA2AD9FFBCA87286 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,11 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181C8A621E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemoUITests" */;
 			buildPhases = (
-				77A15D240F7BEDB7CC13EE4C /* 📦 Check Pods Manifest.lock */,
+				77A15D240F7BEDB7CC13EE4C /* [CP] Check Pods Manifest.lock */,
 				181C8A4F1E60292700395837 /* Sources */,
 				181C8A501E60292700395837 /* Frameworks */,
 				181C8A511E60292700395837 /* Resources */,
-				2E81E352B3C26E9D4FC0F936 /* 📦 Copy Pods Resources */,
+				2E81E352B3C26E9D4FC0F936 /* [CP] Copy Pods Resources */,
+				86B6DA4D5ED2F319B94BA4B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -333,14 +334,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A9A54B4CF59D95D7AB34BD9 /* 📦 Copy Pods Resources */ = {
+		1A9A54B4CF59D95D7AB34BD9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,14 +349,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJSPayManagerDemo/Pods-YJSPayManagerDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2E81E352B3C26E9D4FC0F936 /* 📦 Copy Pods Resources */ = {
+		2E81E352B3C26E9D4FC0F936 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,44 +364,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJSPayManagerDemoUITests/Pods-YJSPayManagerDemoUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		35C880ECE183FEB25264A9DC /* 📦 Check Pods Manifest.lock */ = {
+		35C880ECE183FEB25264A9DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4680CE9B52B41A7F5D159E5A /* 📦 Check Pods Manifest.lock */ = {
+		4680CE9B52B41A7F5D159E5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		603CD18EAA2AD9FFBCA87286 /* 📦 Copy Pods Resources */ = {
+		603CD18EAA2AD9FFBCA87286 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,14 +409,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJSPayManagerDemoTests/Pods-YJSPayManagerDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62E62E9CB0AC2BE6B3CCB73F /* 📦 Embed Pods Frameworks */ = {
+		62E62E9CB0AC2BE6B3CCB73F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,29 +424,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJSPayManagerDemoTests/Pods-YJSPayManagerDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		77A15D240F7BEDB7CC13EE4C /* 📦 Check Pods Manifest.lock */ = {
+		77A15D240F7BEDB7CC13EE4C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		CCD642128A0AA3C43BC7B966 /* 📦 Embed Pods Frameworks */ = {
+		86B6DA4D5ED2F319B94BA4B1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJSPayManagerDemoUITests/Pods-YJSPayManagerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD642128A0AA3C43BC7B966 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

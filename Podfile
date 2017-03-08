@@ -10,6 +10,7 @@ target 'YJSPayManagerDemo' do
   pod 'WeChat_SDK_iOS'
   pod 'Alipay_SDK_iOS'
   pod 'UnionPay_SDK_iOS'
+  pod 'FBRetainCycleDetector'
   # Pods for YJSPayManagerDemo
 
   target 'YJSPayManagerDemoTests' do

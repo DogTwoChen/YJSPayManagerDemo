@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FBRetainCycleDetector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-YJSPayManagerDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>

@@ -1,21 +1,24 @@
 PODS:
   - Alipay_SDK_iOS (15.2.0.1)
   - ApplePay_SDK (2.6.3.1)
+  - FBRetainCycleDetector (0.1.3)
   - UnionPay_SDK_iOS (3.0.0.2)
   - WeChat_SDK_iOS (1.7.5.3)
 
 DEPENDENCIES:
   - Alipay_SDK_iOS
   - ApplePay_SDK
+  - FBRetainCycleDetector
   - UnionPay_SDK_iOS
   - WeChat_SDK_iOS
 
 SPEC CHECKSUMS:
   Alipay_SDK_iOS: ae708b2c97779b51d812021e34f61b1ddf77ade0
   ApplePay_SDK: 1c8f6012fa0b12e73bd03659869d12ab1936c6bd
+  FBRetainCycleDetector: f0c7b290bf48ae77f6ae060843ce34ae341781eb
   UnionPay_SDK_iOS: c7ea6fa2127bda61309f866a49d9ab4ac5ff2961
   WeChat_SDK_iOS: 7a9e224f68c41f456787aeb3ed77f10bb4447d12
 
-PODFILE CHECKSUM: 8d09a0767496401dd345d7035db5e25c9fedb7e5
+PODFILE CHECKSUM: f32c8fdd62e608d3b2c0c675fa75a49b561def95
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.1

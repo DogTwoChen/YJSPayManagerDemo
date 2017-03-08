@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FBRetainCycleDetector.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Pods-YJSPayManagerDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,12 +27,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0F89B29C61EFF0677E4D894C61F60B35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>19447828B4D4CD7B325CA923D95E955E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1BC2B796F0D79CD879949C2BA2550817</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>8DAAD7B91EF6E724A86D8AC9810D6621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D59E8AF7E41D198FB57CFFF635E8FDF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF9D6EADD8E530631B349B6FDC56DA82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCE11A3914EC6C4EEA3A52AF88BB9A9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
